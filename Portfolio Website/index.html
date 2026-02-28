@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ambar Kumar - Full-Stack Developer</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-content">
+            <a href="#" class="logo">Ambar</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact" class="btn btn-outline-sm">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="container hero-content">
+            <div class="hero-text fade-in">
+                <h2 class="greeting">Hello, I am</h2>
+                <h1 class="name">Ambar Kumar</h1>
+                <h3 class="role">Full-Stack Developer & Problem Solver</h3>
+                <p class="tagline">"Building scalable web solutions with a problem-solving mindset."</p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Let's Talk</a>
+                </div>
+            </div>
+            <div class="hero-image-container fade-in slide-up">
+                <div class="image-wrapper">
+                    <img src="MyImage.jpg" alt="Ambar Kumar" class="hero-image">
+                    <div class="image-accent"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- What Makes Me Different -->
+    <section class="highlights section-padding bg-alt" id="highlights">
+        <div class="container">
+            <div class="section-header text-center fade-in">
+                <h2 class="section-title">Why Work With Me?</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="grid highlights-grid">
+                <div class="highlight-card fade-in slide-up hidden">
+                    <div class="icon-box"><i class="fas fa-layer-group"></i></div>
+                    <h3>Full-Stack Vision</h3>
+                    <p>I build real-world applications understanding the complete system flow from Frontend to Database.
+                    </p>
+                </div>
+                <div class="highlight-card fade-in slide-up hidden" style="transition-delay: 100ms;">
+                    <div class="icon-box"><i class="fas fa-users-cog"></i></div>
+                    <h3>Leadership</h3>
+                    <p>PR Head experience equipped me with strong team coordination and management skills.</p>
+                </div>
+                <div class="highlight-card fade-in slide-up hidden" style="transition-delay: 200ms;">
+                    <div class="icon-box"><i class="fas fa-brain"></i></div>
+                    <h3>Problem Solving</h3>
+                    <p>Strong foundation in C++ driving a logical and structured approach to complex challenges.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section-padding" id="about">
+        <div class="container about-content">
+            <div class="about-text fade-in">
+                <h2 class="section-title">About Me</h2>
+                <div class="divider left"></div>
+                <p>I am currently pursuing a <strong>B.Tech in Computer Science & Engineering (2023–2027)</strong> from
+                    Uttaranchal University, Dehradun.</p>
+                <p>I am deeply interested in Web Development, particularly the MERN Stack, and building scalable
+                    applications. I enjoy converting ideas into functional, user-friendly digital platforms. My goal is
+                    to become a skilled full-stack developer and contribute to impactful tech products.</p>
+                <p class="quote">"I don’t just write code — I build solutions that solve real problems."</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section-padding bg-alt" id="skills">
+        <div class="container">
+            <div class="section-header text-center fade-in">
+                <h2 class="section-title">Technical Expertise</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="grid skills-grid">
+                <div class="skill-category fade-in slide-up hidden">
+                    <h3><i class="fas fa-code"></i> Languages</h3>
+                    <ul class="skill-list">
+                        <li>C++</li>
+                        <li>JavaScript (ES6+)</li>
+                    </ul>
+                </div>
+                <div class="skill-category fade-in slide-up hidden" style="transition-delay: 100ms;">
+                    <h3><i class="fas fa-laptop-code"></i> Web Dev</h3>
+                    <ul class="skill-list">
+                        <li>React.js</li>
+                        <li>Node.js & Express</li>
+                        <li>MongoDB</li>
+                        <li>HTML5 & CSS3</li>
+                        <li>RESTful APIs</li>
+                    </ul>
+                </div>
+                <div class="skill-category fade-in slide-up hidden" style="transition-delay: 200ms;">
+                    <h3><i class="fas fa-tools"></i> Tools</h3>
+                    <ul class="skill-list">
+                        <li>Git & GitHub</li>
+                        <li>VS Code</li>
+                        <li>Postman</li>
+                        <li>XAMPP</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section-padding" id="projects">
+        <div class="container">
+            <div class="section-header text-center fade-in">
+                <h2 class="section-title">Selected Works</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="project-list">
+
+                <div class="project-item fade-in slide-up hidden">
+                    <div class="project-info">
+                        <span class="project-number">01</span>
+                        <h3 class="project-title">Disaster Management Platform</h3>
+                        <p class="project-desc">A responsive web platform to provide real-time disaster updates and
+                            emergency resources. Designed for quick access to help centers and safety guidelines.</p>
+                        <div class="project-tech">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Backend APIs</span>
+                        </div>
+                        <a href="https://github.com/ambar1516/Disaster-Management-Website" target="_blank"
+                            class="project-link">View Code <i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="project-item fade-in slide-up hidden" style="transition-delay: 100ms;">
+                    <div class="project-info">
+                        <span class="project-number">02</span>
+                        <h3 class="project-title">Amazon Clone</h3>
+                        <p class="project-desc">A full-stack e-commerce clone featuring product listings, a fully
+                            functional cart system, and basic user authentication.</p>
+                        <div class="project-tech">
+                            <span>React</span><span>Node.js</span><span>MongoDB</span>
+                        </div>
+                        <a href="https://github.com/ambar1516/Amazon-Clone-Webpage" target="_blank"
+                            class="project-link">View Code <i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+
+                <div class="project-item fade-in slide-up hidden" style="transition-delay: 200ms;">
+                    <div class="project-info">
+                        <span class="project-number">03</span>
+                        <h3 class="project-title">Netflix UI Interface</h3>
+                        <p class="project-desc">A streaming platform UI replica demonstrating dynamic movie listing
+                            using TMDB APIs and modern responsive design techniques.</p>
+                        <div class="project-tech">
+                            <span>React</span><span>CSS Modules</span><span>REST API</span>
+                        </div>
+                        <a href="#" class="project-link">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Education Section -->
+    <section class="experience section-padding bg-alt" id="experience">
+        <div class="container">
+            <div class="grid timeline-grid">
+
+                <!-- Education -->
+                <div class="timeline-column fade-in slide-right hidden">
+                    <h2 class="section-title">Education</h2>
+                    <div class="divider left"></div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>B.Tech in Computer Science & Engineering</h4>
+                            <span class="timeline-date">Uttaranchal University, Dehradun | 2023 – 2027</span>
+                            <p>Focusing on software development, algorithms, and practical problem-solving.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience -->
+                <div class="timeline-column fade-in slide-left hidden">
+                    <h2 class="section-title">Leadership</h2>
+                    <div class="divider left"></div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>PR Head – Core Committee</h4>
+                            <span class="timeline-date">UIT</span>
+                            <p>Led public relations activities and managed team coordination. Handled communication
+                                between departments, significantly improving organizational collaboration and developing
+                                strong leadership skills.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section-padding" id="contact">
+        <div class="container">
+            <div class="contact-card fade-in slide-up hidden">
+                <h2 class="section-title text-center">Get in Touch</h2>
+                <p class="text-center contact-subtitle">Currently open for new opportunities and interesting projects.
+                </p>
+                <div class="contact-info">
+                    <a href="mailto:ambarkumar1516@gmail.com" class="contact-link">
+                        <i class="fas fa-envelope"></i> ambarkumar1516@gmail.com
+                    </a>
+                    <a href="tel:+918434781667" class="contact-link">
+                        <i class="fas fa-phone"></i> +91 8434781667
+                    </a>
+                    <div class="contact-link">
+                        <i class="fas fa-map-marker-alt"></i> Dehradun, India
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-logo">Ambar Kumar</div>
+            <p>&copy; <span id="year"></span>. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/ambar-kumar-5227b9180/" target="_blank"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/ambar1516" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
